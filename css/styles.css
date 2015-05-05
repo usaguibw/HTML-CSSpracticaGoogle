@@ -1,0 +1,190 @@
+/* Un ID se marca con # y una clase con . */
+body {
+	font-family: arial,sans-serif;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+header {
+	background: white;
+	height: 50px;
+	width: 100%;
+}
+header a {
+	color: #777;
+	text-decoration: none;
+}
+header a:hover {
+	text-decoration: underline;
+}
+footer {
+	background-color: #f2f2f2;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+input {
+	width: 100%;
+	margin: 0 auto;
+	height: 22px;
+	margin: 20px 0;
+}
+
+footer #izquierda {
+	background-color: #f2f2f2;
+	float: left;
+	height: 100%;
+	width: 300px;
+}
+
+footer #derecha {
+	background-color:#f2f2f2;
+	float: right;
+	height: 100%;
+	width: 450px;
+}
+
+footer a {
+	color: #777;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+button {
+	padding: 5px;
+}
+
+#buttons {
+	width: 289px;
+	margin: auto;
+}
+
+#logo {
+	width: 500px;
+	height: 100%;
+	margin: auto;
+	padding-top: 150px;
+}
+
+#profile {
+	background: white;
+	float: right;
+	font-family: arial,sans-serif;
+	color: #777;
+	height: 100%;
+	width: 400px;
+}
+#profile p {
+	padding: 5px;
+}
+
+#image {
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: 269px 95px;
+	height: 95px;
+	width: 269px;
+	position: relative;
+	margin: auto;
+}
+
+#image p {
+	bottom: 0;
+	color: #777;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	position: absolute;
+	right: 0;
+}
+
+#texto {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#texto p,a {
+	font-size: 12px;
+}
+#izquierda ul {
+	padding-right: 0px;
+	padding-left: 20px;
+	float: left;
+	padding-bottom: 0px;
+	margin: 15px 0px;
+	width: 100%;
+	padding-top: 0px;
+	list-style-type:none; 
+}
+#izquierda ul li {
+	padding-right: 2px;
+	display: inline;
+	text-align: center;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 80px;
+	padding-top: 2px;
+}
+#derecha ul {
+	padding-right: 0px;
+	padding-left: 20px;
+	float: right;
+	padding-bottom: 0px;
+	margin: 15px 0px;
+	width: 100%;
+	padding-top: 0px;
+	list-style-type:none; 
+}
+#derecha ul li {
+	padding-right: 2px;
+	display: inline;
+	text-align: center;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 105px;
+	padding-top: 2px;
+}
+.first-button {
+	margin-right: 10px;
+}
+.eli {
+border: 2px solid grey;
+margin: 0;
+padding: 0;
+border-radius: 50%;
+overflow: hidden;
+}
+
+ul.columnas {
+padding-right: 0px;
+padding-left: 0px;
+float: left;
+padding-bottom: 0px;
+margin: 15px 0px;
+width: 100%;
+padding-top: 0px;
+list-style-type:none; 
+
+}
+
+ul.columnas li {
+	padding-right: 2px;
+	display: inline;
+	text-align: center;
+	padding-left: 2px;
+	float: left;
+	padding-bottom: 2px;
+	width: 13%;
+	padding-top: 2px;
+}
+ul.columnas li img.eli {
+	list-style-type:circle; 
+}
